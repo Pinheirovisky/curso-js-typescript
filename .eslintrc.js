@@ -21,10 +21,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
-    rules: {
-      prettier: {
-        'space-before-function-paren': ['error', 'never'],
-      },
-    },
+    'space-before-function-paren': ['error', 'never'],
   },
 };
