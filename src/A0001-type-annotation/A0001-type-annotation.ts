@@ -19,8 +19,10 @@ let pessoa: { nome: string, idade: number, adulto?: boolean } = {
 }
 
 // Funções
-function soma (x: number, y: number) {
+function soma(x: number, y: number) {
   return x + y;
 }
 
 const soma2: (x: number, y: number) => number = (x, y) => x + y;
+
+export default pessoa
