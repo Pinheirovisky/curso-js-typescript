@@ -15,7 +15,8 @@ var MeuNamespace;
         OutroNamespace.nomeDoNamespace = 'Vitoria';
     })(OutroNamespace = MeuNamespace.OutroNamespace || (MeuNamespace.OutroNamespace = {}));
 })(MeuNamespace || (MeuNamespace = {}));
-var pessoaDoNamespace = new MeuNamespace.PessoaDoNamespace('Vinicius');
+var constDoNamespace = 'Valor da const do namespace';
 // eslint-disable-next-line @typescript-eslint/triple-slash-reference
 /// <reference  path="module.ts" />
 console.log(MeuNamespace.nomeDoNamespace);
+console.log(constDoNamespace);
